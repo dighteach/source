@@ -1,0 +1,111 @@
+/**
+ * grid.css - default css grid styling for 402 framework
+ */
+ 
+/* Containers*/
+.container_12 {
+	min-width: 1000px;
+	min-height:100%;
+}
+
+/* Grid >> Global*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display:inline;
+	float: left;
+	position: relative;
+}
+
+/* Grid >> Children*/
+/* Grid >> 12 Columns - adjusted to fill as close to 100% as advisable & with slight rounding down to allow some space for borders*/
+.container_12 .grid_1 {
+	width:8.3%;
+}
+
+.container_12 .grid_2 {
+	width:16%;
+}
+
+.container_12 .grid_3 {
+	width:24.9%;
+}
+
+.container_12 .grid_4 {
+	width:33.3%;
+}
+
+.container_12 .grid_5 {
+	width:41.6%;
+}
+
+.container_12 .grid_6 {
+	width:49.9%;
+}
+
+.container_12 .grid_7 {
+	width:58.3%;
+}
+
+.container_12 .grid_8 {
+	width:66.6%;
+}
+
+.container_12 .grid_9 {
+	width:74.9%;
+}
+
+.container_12 .grid_10 {
+	width:83%;
+}
+
+.container_12 .grid_11 {
+	width:91.6%;
+}
+
+.container_12 .grid_12 {
+	width:100%;
+}
+
+/* Clear Floated Elements*/
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
