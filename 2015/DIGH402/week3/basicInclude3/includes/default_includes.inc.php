@@ -1,7 +1,7 @@
 <?php
-/**
+/*
 default site includes
-**/
+*/
 
 /*DB config etc*/
 include($root_includes.'config.inc.php');
