@@ -5,13 +5,13 @@
 define('DB_SERVER', 'localhost');
 
 //database query user login name
-define('DB_USER_QUERY', '402user');
+define('DB_USER_QUERY', 'user');
 
 //database query user login password
-define('DB_PASS_QUERY', 'celine59');
+define('DB_PASS_QUERY', 'pass');
 
 //database name
-define('DB_DATABASE', '402framework');
+define('DB_DATABASE', 'db');
 
 /*DB tables*/
 
