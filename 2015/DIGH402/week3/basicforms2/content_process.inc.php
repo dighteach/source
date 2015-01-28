@@ -2,7 +2,7 @@
 
 /*connect to mysql DB, submit query, return results*/
 function basicQuery($query) {
-$con = mysqli_connect('localhost', '402user', 'celine59', '402framework');
+$con = mysqli_connect('localhost', 'user', 'pass', 'db');
 if (!$con) {
     die('Could not connect: ' . mysql_error());
 }
