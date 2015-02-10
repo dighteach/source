@@ -3,4 +3,4 @@
 This directory includes weekly source code for the 402framework project.
 
 #### Contents
-* week 5
+* version 0.1
