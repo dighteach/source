@@ -1,6 +1,6 @@
 <?php
 /**
- * index.php - index page for the 402 framework
+ * index.php - index page for the 402 framework v0.1
  */
 
 //load the directory constants for the framework
