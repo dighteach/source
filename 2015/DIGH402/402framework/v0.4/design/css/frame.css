@@ -1,0 +1,175 @@
+/**
+ * frame.css - default css styling for 402 framework
+ */
+
+/*html and body styles*/
+html, body {
+height: 100%;
+margin: 0px;
+}
+
+
+/*specific body styles*/
+body {
+background-color: #ffffff;
+/*font-family: arial,sans-serif;*/
+font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+line-height: 15px;
+color: #555555;
+min-width: 1100px;
+}
+
+/*header no.1*/
+h1 {
+font-size: 20px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.2*/
+h2 {
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.3*/
+h3 {
+font-size: 16px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.4*/
+h4 {
+font-size: 15px;
+font-weight: normal;
+color: #333333;
+}
+
+/*header no.5*/
+h5 {
+font-size: 14px;
+font-weight: normal;
+color: #333333;
+}
+
+/*header no.6*/
+h6 {
+font-size: 13px;
+font-weight: normal;
+color: #333333;
+}
+
+/*links*/
+a {
+color: #096eb6;
+text-decoration:none;
+cursor: pointer;
+}
+
+/* mouse over link */
+a:hover {
+text-decoration: underline;
+}
+
+/*image link - removes blue border often rendered in IE*/
+a img {
+border: 0;
+}
+
+/*default paragraph styling*/
+p {
+line-height: 15px;
+font-size: 11px;
+}
+
+/*default unordered list styling*/
+ul {
+padding: 0;
+margin: 0;
+}
+
+ul li {
+list-style: square;
+}
+
+/*header within main container*/
+div.header {
+height: 90px;
+width: 100%;
+z-index: 150;
+background-color: #555555;
+position: relative;
+top: 0;
+border-bottom: 1px solid #cccccc;
+}
+
+/*header logo with image, text...*/
+#header .logo {
+padding:20px;
+}
+
+/*central content*/
+div.centre {
+height:100%;
+}
+
+/*central node for content output - eg; text, image...*/
+div.node_content {
+height: 100%;
+padding: 5px;
+}
+
+/*image positioning for central node for content output*/
+div.node_content img {
+width:100%;
+}
+
+/*sidebar left*/
+div.sidebar_left {
+height:100%;
+width:100%;
+font-size: 11px;
+border-right: 1px solid #cccccc;
+border-bottom: 1px solid #cccccc;
+padding-bottom:75px;
+}
+
+/*generic styling for metadata output*/
+div.sidebar_left div.meta {
+padding: 2px;
+font-size: 10px;
+}
+
+/*sidebar left title metadata*/
+div.sidebar_left div.title {
+font-size: 15px;
+padding: 10px;
+}
+
+/*sidebar left title metadata*/
+div.sidebar_left div.description {
+margin: 5px;
+padding: 5px;
+font-size: 13px;
+border: 1px solid #dedede;
+background-color: #eeeeee;
+}
+
+/*page footer*/
+div.footer {
+position:fixed;
+left:0px;
+bottom:0px;
+color: #555555;
+height: 15px;
+width:100%;
+background:#ffffff;
+border-top: 1px solid #cccccc;
+padding-top: 20px;
+padding-bottom: 15px;
+text-indent: 15px;
+z-index: 105;
+}
