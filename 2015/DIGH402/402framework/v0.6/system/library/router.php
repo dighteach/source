@@ -58,7 +58,7 @@ function __construct () {
  }
  
  /**
- * return the required format
+ * return the required group
  */
  function get_group() {
  	return self::$group;
