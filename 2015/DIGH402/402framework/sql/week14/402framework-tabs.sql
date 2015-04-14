@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 14, 2015 at 09:18 PM
+-- Generation Time: Apr 14, 2015 at 08:33 PM
 -- Server version: 5.5.41-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.5
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `402framework15`
+-- Database: `402framework_final`
 --
 
 -- --------------------------------------------------------
@@ -328,7 +328,8 @@ INSERT INTO `plugins` (`plugin_id`, `plugin_name`, `plugin_desc`, `plugin_direct
 (4, 'pager', 'page through a returned set of results', 'pager'),
 (5, 'xml_style', 'style XML elements rendered in a HTML document', 'xml_style'),
 (6, 'highlighter', 'highlight text within a textual document', 'highlighter'),
-(7, 'map', 'load and view maps using Google Maps API and map controller and viewer', 'map');
+(7, 'map', 'load and view maps using Google Maps API and map controller and viewer', 'map'),
+(8, 'tabs', 'jquery ui tabs for split content rendering', 'tabs');
 
 -- --------------------------------------------------------
 
@@ -360,7 +361,8 @@ INSERT INTO `plugins_lookup` (`plugin_id`, `plugin_type`, `content_type`, `conte
 (4, 'taxonomy', '', ''),
 (5, 'content', 'text', ''),
 (6, 'content', 'text', ''),
-(7, 'content', 'map', '');
+(7, 'content', 'map', ''),
+(8, 'content', '', '');
 
 -- --------------------------------------------------------
 
