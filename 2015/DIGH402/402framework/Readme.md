@@ -11,3 +11,5 @@ This directory includes weekly source code for the 402framework project.
 * version 0.5
 * version 0.6
 * version 0.7
+* version 0.8
+* version 0.8-tabs
