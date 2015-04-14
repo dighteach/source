@@ -1,0 +1,381 @@
+/**
+ * frame.css - default css styling for 402 framework
+ */
+
+/*html and body styles*/
+html, body {
+height: 100%;
+margin: 0px;
+}
+
+
+/*specific body styles*/
+body {
+background-color: #ffffff;
+/*font-family: arial,sans-serif;*/
+font-family: 'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+line-height: 15px;
+color: #555555;
+min-width: 1100px;
+}
+
+/*header no.1*/
+h1 {
+font-size: 20px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.2*/
+h2 {
+font-size: 18px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.3*/
+h3 {
+font-size: 16px;
+font-weight: bold;
+color: #333333;
+}
+
+/*header no.4*/
+h4 {
+font-size: 15px;
+font-weight: normal;
+color: #333333;
+}
+
+/*header no.5*/
+h5 {
+font-size: 14px;
+font-weight: normal;
+color: #333333;
+}
+
+/*header no.6*/
+h6 {
+margin: 10px 0 0 0;
+font-size: 12px;
+font-weight: normal;
+text-decoration: underline;
+color: #333333;
+}
+
+/*links*/
+a {
+color: #096eb6;
+text-decoration:none;
+cursor: pointer;
+}
+
+/* mouse over link */
+a:hover {
+text-decoration: underline;
+}
+
+/*image link - removes blue border often rendered in earlier IE*/
+a img {
+border: 0;
+}
+
+/*default paragraph styling*/
+p {
+line-height: 15px;
+font-size: 11px;
+}
+
+/*default unordered list styling*/
+ul {
+padding: 0;
+margin: 0;
+}
+
+ul li {
+list-style: square;
+}
+
+.highlight {
+background-color: pink; 
+}
+
+/*generic table styles*/
+table {
+margin: 20px 0 20px 5px;
+width: 95%;
+}
+
+thead {
+background-color: #f2f2f2;
+padding: 5px;
+}
+
+th {
+cursor: pointer;
+color: #096eb6;
+font-weight: normal;
+border: 1px solid #dddddd;
+padding: 12px;
+}
+
+td {
+border: 1px solid #dedede;
+padding: 5px;
+font-size: 11px;
+}
+
+td img {
+max-width: 150px;
+max-height: 150px;
+padding: 10px;
+}
+
+.image {
+cursor: pointer;
+}
+
+/**
+ * site menus
+ */
+ 
+/*horizontal menu*/
+.horizontal_menu ul{
+list-style-type:none;
+padding:0;
+margin:0;
+}
+
+.horizontal_menu li{
+float:left;
+position:relative;
+z-index:100;
+list-style-type:none;
+}
+
+.horizontal_menu a, .horizontal_menu :visited {
+display:block;
+font-size:11px;
+width:90px;
+padding: 5px;
+color:#096eb6;
+background:#ffffff;
+border: 1px solid #dedede;
+text-decoration:none;
+margin-right:0;
+text-align:center;
+}
+
+.horizontal_menu :hover{
+color:#333333;
+background:#eeeeee;
+text-decoration: none;
+}
+
+.horizontal_menu ul ul {
+visibility:hidden;
+position:absolute;
+width:90px;
+height:0;
+}
+
+.horizontal_menu ul li:hover ul, .horizontal_menu ul a:hover ul{
+visibility:visible;
+}
+
+/*vertical menu*/
+.vertical_menu ul {
+min-width: 100px;
+list-style-type:none;
+padding: 0;
+margin: 5px 0 0 10px;
+}
+
+.vertical_menu li {
+padding: 3px 0 3px 0;
+list-style-type:none;
+}
+
+.vertical_menu ul li ul {
+min-width: 100px;
+}
+
+/**
+ * header section
+ */
+
+/*header within main container*/
+div.header {
+height: 90px;
+width: 100%;
+z-index: 10;
+background-color: #555555;
+position: relative;
+top: 0;
+border-bottom: 1px solid #cccccc;
+}
+
+/*header logo with image, text...*/
+#header .logo {
+padding:20px;
+}
+
+/**
+ * central section
+ */
+
+/*central content*/
+div.centre {
+height:100%;
+}
+
+/*central node for content output - eg; text, image...*/
+div.node_content {
+height: 100%;
+padding: 5px;
+margin-bottom: 100px;
+}
+
+/*image positioning for central node for content output*/
+div.node_content img {
+width:95%;
+}
+
+/**
+ * sidebar section
+ */
+
+/*sidebar left*/
+div.sidebar_left {
+height:100%;
+width:100%;
+font-size: 11px;
+border-right: 1px solid #cccccc;
+border-bottom: 1px solid #cccccc;
+padding-bottom:75px;
+}
+
+/*generic styling for metadata output*/
+div.sidebar_left div.meta {
+padding: 2px;
+font-size: 10px;
+}
+
+/*sidebar left title metadata*/
+div.sidebar_left div.title {
+font-size: 15px;
+padding: 10px;
+}
+
+/*sidebar left title metadata*/
+div.sidebar_left div.description {
+margin: 5px;
+padding: 5px;
+font-size: 13px;
+border: 1px solid #dedede;
+background-color: #eeeeee;
+}
+
+/*sidebar left related*/
+div.sidebar_left div.related_title {
+font-size: 13px;
+padding: 10px;
+}
+
+
+/**
+ * footer section
+ */
+
+/*page footer*/
+div.footer {
+position:fixed;
+left:0px;
+bottom:0px;
+color: #555555;
+height: 15px;
+width:100%;
+background:#ffffff;
+border-top: 1px solid #cccccc;
+padding-top: 20px;
+padding-bottom: 15px;
+text-indent: 15px;
+z-index: 10;
+}
+
+/**
+ * plugins and viewers
+ */
+
+/*plugin options*/
+div.plugin_options {
+padding: 5px;
+}
+
+span.plugin_link {
+padding: 5px;
+color: #096eb6;
+cursor: pointer;
+}
+
+/*gallery viewer options*/
+div.thumb_contain a {
+display: block;
+text-indent: 10px;
+}
+
+div.thumb_contain img {
+width: 150px;
+height: 150px;
+padding: 10px;
+}
+
+/*group pager options*/
+#paging {
+padding-top: 30px;
+}
+
+ul#paging li {
+display: inline;
+padding: 5px;
+border: 1px solid #dedede;
+color: #096eb6;
+text-decoration:none;
+cursor: pointer;
+}
+
+ul#paging li:hover {
+background-color: #eeeeee;
+}
+
+ul#paging li.current {
+background-color: #096eb6;
+color: #ffffff;
+}
+
+div.text {
+margin-left: auto;
+margin-right: auto;
+width: 750px;
+}
+
+/*xml styling*/
+.tei_LB {
+display:block;
+}
+
+.tei_centre {
+margin-left: 125px;
+}
+
+.page_num {
+margin-left: 150px;
+}
+
+/*map plugin loader div - where the map is rendered!*/
+#map_canvas { 
+width: 100%;
+height: 800px;
+background-color: #CCC;
+}
