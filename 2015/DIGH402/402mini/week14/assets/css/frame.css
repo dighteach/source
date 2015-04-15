@@ -1,0 +1,32 @@
+/**
+ * custom stylesheet for 402mini
+ */
+ 
+body {
+font: Helvetica, Arial, sans-serif;
+color:#333;
+}
+
+div.wrapper {
+min-height: 100%;
+width: 100%;
+padding:10px;
+}
+
+#content {
+padding: 10px;
+}
+
+table {
+font-size: 13px;
+}
+
+#mini_menu {
+padding: 10px;
+}
+
+/*text content*/
+.txt_content {
+padding: 10px 0 10px 0;
+max-width: 800px;
+}
